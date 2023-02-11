@@ -1,6 +1,11 @@
 import React, { lazy, Suspense, useState, useEffect } from 'react'
-import { Router, Switch, Route, Redirect } from 'react-router-dom'
 import { createBrowserHistory } from 'history'
+import {
+  Router,
+  Switch,
+  Route,
+  Redirect,
+} from 'react-router-dom'
 import {
   StylesProvider,
   createGenerateClassName,
